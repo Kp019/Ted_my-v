@@ -1,0 +1,42 @@
+.main{
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+video{
+    width: 100%;
+    background-position: bottom;
+    position: fixed;
+    background-size: cover;
+    left:0;
+    top:0;
+    z-index: -1;
+
+}
+
+.txt{
+    font-size: 180px;
+    color: rgb(255, 255, 255);
+}
+.txte{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:550px) {
+    .txt{
+            font-size: 70px;
+
+    }
+    .txte{
+        font-size: 20px;
+    }
+        
+    }

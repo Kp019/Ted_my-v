@@ -1,0 +1,16 @@
+.even{
+    padding-top: 60px;
+}
+.eve-title{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.eve-title h1{
+    font-size: 50px
+}
+
+.eve-cor{
+    background-color: black;
+}

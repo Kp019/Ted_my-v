@@ -1,0 +1,31 @@
+.cont{
+    position: relative;
+    background-color: black;
+    background-position: cover;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 50px;
+}
+
+.line{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 5px;
+}
+
+.conta{
+    margin-bottom: 150px;
+}
