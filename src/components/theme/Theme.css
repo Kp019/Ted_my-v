@@ -16,8 +16,9 @@
     align-items: center;
 }
 
-.title h1{
+.head .title h1{
     font-size: 50px;
+    color: brown;
 }
 
 .line{
@@ -26,6 +27,7 @@
     height: 5px;
 }
 
-.conta{
-    margin-bottom: 150px;
+.cont p{
+    margin-left: 170px;
+    margin-right: 170px;
 }

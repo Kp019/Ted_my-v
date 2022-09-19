@@ -1,0 +1,11 @@
+.speak-txt-1  {
+    display: none;
+}
+.speak-1:hover .speak-txt-1 {
+    display: block;
+}
+
+.speak-1:hover .speak-1-tit{
+    display: none;
+    
+}

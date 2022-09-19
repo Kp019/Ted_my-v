@@ -1,0 +1,26 @@
+.contact_fu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    color: aliceblue;
+}
+
+@media screen and (max-width:1200px) {
+    .contact_fu{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont-ty{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+}

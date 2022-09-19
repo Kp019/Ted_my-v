@@ -8,10 +8,9 @@ function Theme() {
       <div className="cont">
         <Container fluid>
           <div className="head pt-5">
-            <div className="title text-danger">
+            <div className="title">
               <h1>ELEMENT OF TENET</h1>
             </div>
-            <div className="line"></div>
           </div>
           <div
             className="cont col-12 p-5"

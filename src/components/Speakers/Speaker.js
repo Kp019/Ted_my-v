@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import pic1 from "../img/pic1.jpg";
+import "./Speakers.css";
 
 function Speaker() {
   return (
@@ -13,76 +14,105 @@ function Speaker() {
           <Row>
             <Col>
               <Card>
-                <Card.Body>
-                  <Card.Img
-                    variant="top"
-                    src={pic1}
-                    style={{ height: "13rem" }}
-                  />
+                <Card.Body className="speak-1">
+                  <div className="speak-1-tit">
+                    <Card.Img
+                      variant="top"
+                      src={pic1}
+                      style={{ height: "15rem" }}
+                    />
+                  </div>
                   <Card.Title>
                     <h2>kp</h2>
                   </Card.Title>
-                  <Card.Text>
-                    Web developer, designer
-                    <br />
-                    MACE
+                  <Card.Text className="speak-txt-1">
+                    <p>
+                      What becomes our truth Is a series of well practiced
+                      beliefs. An embodiment of this statement as such would be
+                      Apoorva Bose, actress, lawyer, and communications expert
+                      at the UN Environment Programme, one of our array of
+                      speakers at TEDxMACE ready to embark you on an explorative
+                      journey with her words.{" "}
+                    </p>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
               <Card>
-                <Card.Body>
-                  <Card.Img
-                    variant="top"
-                    src={pic1}
-                    style={{ height: "13rem" }}
-                  />
+                <Card.Body className="speak-1">
+                  <div className="speak-1-tit">
+                    <Card.Img
+                      variant="top"
+                      src={pic1}
+                      style={{ height: "15rem" }}
+                    />
+                  </div>
                   <Card.Title>
                     <h2>kp</h2>
                   </Card.Title>
-                  <Card.Text>
-                    Web developer, designer
-                    <br />
-                    MACE
+                  <Card.Text className="speak-txt-1">
+                    <p>
+                      What becomes our truth Is a series of well practiced
+                      beliefs. An embodiment of this statement as such would be
+                      Apoorva Bose, actress, lawyer, and communications expert
+                      at the UN Environment Programme, one of our array of
+                      speakers at TEDxMACE ready to embark you on an explorative
+                      journey with her words.{" "}
+                    </p>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
               <Card>
-                <Card.Body>
-                  <Card.Img
-                    variant="top"
-                    src={pic1}
-                    style={{ height: "13rem" }}
-                  />
+                <Card.Body className="speak-1">
+                  <div className="speak-1-tit">
+                    <Card.Img
+                      variant="top"
+                      src={pic1}
+                      style={{ height: "15rem" }}
+                    />
+                  </div>
                   <Card.Title>
                     <h2>kp</h2>
                   </Card.Title>
-                  <Card.Text>
-                    Web developer, designer
-                    <br />
-                    MACE
+                  <Card.Text className="speak-txt-1">
+                    <p>
+                      What becomes our truth Is a series of well practiced
+                      beliefs. An embodiment of this statement as such would be
+                      Apoorva Bose, actress, lawyer, and communications expert
+                      at the UN Environment Programme, one of our array of
+                      speakers at TEDxMACE ready to embark you on an explorative
+                      journey with her words.{" "}
+                    </p>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
-              <Card>
+              <Card className="speak-1">
                 <Card.Body>
-                  <Card.Img
-                    variant="top"
-                    src={pic1}
-                    style={{ height: "13rem" }}
-                  />
+                  <div className="speak-1-tit">
+                    <Card.Img
+                      variant="top"
+                      src={pic1}
+                      style={{ height: "15rem" }}
+                    />
+                  </div>
                   <Card.Title>
                     <h2>kp</h2>
                   </Card.Title>
-                  <Card.Text>
-                    Web developer, designer
-                    <br />
-                    MACE
+
+                  <Card.Text className="speak-txt-1">
+                    <p className="speak-1-cont">
+                      What becomes our truth Is a series of well practiced
+                      beliefs. An embodiment of this statement as such would be
+                      Apoorva Bose, actress, lawyer, and communications expert
+                      at the UN Environment Programme, one of our array of
+                      speakers at TEDxMACE ready to embark you on an explorative
+                      journey with her words.{" "}
+                    </p>
                   </Card.Text>
                 </Card.Body>
               </Card>

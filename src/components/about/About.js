@@ -7,29 +7,8 @@ function About() {
     <div>
       <Card className="con">
         <Container className="mb-5" fluid>
-          <div className="title m-5">
-            <h1>About</h1>
-          </div>
+          <div className="title-abt m-5">{/*<h1>About</h1>*/}</div>
           <Row className="m-3">
-            <Col className="m-3">
-              <Card>
-                <Card.Body className="m-5">
-                  <Card.Title>About MACE</Card.Title>
-                  <Card.Text>
-                    Carefully picked out, thoroughly thought out, and once
-                    elegantly sequenced, words, have a way of resonating with
-                    your soul. They could inspire, rejuvenate or leave you in
-                    quiet introspection. Here, at TEDxMACE we bring you
-                    hand-picked stories of unconventionally extraordinary
-                    individuals who will showcase to you a world for not just
-                    what it is, but, for what it could be. It's our fourth
-                    attempt in stimulating interesting conversations in little
-                    communities; our journey into the future in the company of
-                    those making it.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
             <Col className="m-3">
               <Card>
                 <Card.Body className="m-5">

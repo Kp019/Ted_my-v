@@ -1,0 +1,12 @@
+.abt-f{
+    background-color: white;
+}
+
+.abt-ted{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}

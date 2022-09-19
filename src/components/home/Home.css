@@ -3,7 +3,10 @@
     margin-bottom: 250px;
 }
 
-
+.email{
+    width: 500px;
+    
+}
 
 .home{
     display: flex;
@@ -30,9 +33,40 @@ video{
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
-@media screen and (max-width:550px) {
+
+@media screen and (max-width:1200px) {
+    video{
+        height: 300vh;
+        width: auto;
+    }   
+}
+
+@media screen and (max-width:920px) {
     .txt{
-            font-size: 70px;
+        font-size: 120px;
+
+}
+.txte{
+    font-size: 30px;
+}
+    
+}
+
+@media screen and (max-width:800px){
+    video{
+        height: 200vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    video{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .txt{
+            font-size: 80px;
 
     }
     .txte{
@@ -40,3 +74,32 @@ video{
     }
         
     }
+
+    @media screen and (max-width:420px) {
+        video{
+            margin: 0;
+            padding: 0;
+            height: 200vh;
+        }
+        .txt{
+                font-size: 70px;
+    
+        }
+        .txte{
+            font-size: 20px;
+        }
+            
+        }
+        @media screen and (max-width:300px) {
+            video{
+                height: 100%;
+            }
+            .txt{
+                    font-size: 50px;
+        
+            }
+            .txte{
+                font-size: 15px;
+            }
+                
+            }
