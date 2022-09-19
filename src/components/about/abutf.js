@@ -4,12 +4,12 @@ import { Container, Col, Row } from "react-bootstrap";
 
 function Abutf() {
   return (
-    <div className="abt-f">
+    <div className="abtf">
       <Container>
-        <div className="pt-5">
-          <Row>
-            <Col className="abt-ted">
-              <div className="abt-ted-mc m-3">
+        <div className="pt-3">
+          <Row className="pb-5">
+            <Col className="abt-ted mx-3">
+              <div className="abt-ted-mc">
                 <h3>About TedX MACE</h3>
               </div>
               <div>
@@ -26,9 +26,7 @@ function Abutf() {
                 </p>
               </div>
             </Col>
-          </Row>
-          <Row className="m-5 p-3">
-            <Col className="m-3">
+            <Col className="abt-ted mx-3">
               <div>
                 <h3>About Ted</h3>
               </div>
@@ -46,11 +44,11 @@ function Abutf() {
                 </p>
               </div>
             </Col>
-            <Col className="m-3">
+            <Col className=" abt-ted mx-3">
               <div>
                 <h3>About TedX</h3>
               </div>
-              <div className="mt-3 mb-3">
+              <div>
                 TEDx talks are conversations that aims at developing a local
                 narrative while maintaining the underlying vision of TED. While
                 TED takes more of a global approach, TEDx is a space that

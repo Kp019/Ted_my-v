@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <Container fluid>
-        <div className="main container-fluid mb-">
+        <div className="main container-fluid">
           <div className="overlay"></div>
           <video src={vid} autoPlay loop muted />
           <div className="home js-fullheight container-fluid">

@@ -5,14 +5,14 @@ import "./Contact.css";
 function Contact() {
   return (
     <div className="contact_fu">
-      <Container className="m-3 contact_fu ">
-        <div className="title">
+      <Container className="mt-3 ">
+        <div className=" p-5 title">
           <h1>Contact</h1>
         </div>
         <Form>
           <Row className="cont-ty">
-            <Col className="m-3">
-              <Row>
+            <Col className="m-5">
+              <Row className="cont-ty-r">
                 <FormGroup>
                   <Form.Label>Name</Form.Label>
                   <Form.Control
@@ -39,13 +39,14 @@ function Contact() {
                 </Button>
               </Row>
             </Col>
-            <Col className="m-3 msg">
+            <Col className="m-5 msg">
               <Form.Label>Message</Form.Label>
               <Form.Control
                 type="message"
+                as="textarea"
+                Rows={2}
                 className="message"
                 placeholder="Enter Message"
-                style={{ height: 250, width: 500 }}
               />
             </Col>
           </Row>
