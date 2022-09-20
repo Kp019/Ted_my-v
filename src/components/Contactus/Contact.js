@@ -13,7 +13,7 @@ function Contact() {
           <Row className="cont-ty">
             <Col className="m-5">
               <Row className="cont-ty-r">
-                <FormGroup>
+                <FormGroup className="nam">
                   <Form.Label>Name</Form.Label>
                   <Form.Control
                     className="name"
@@ -23,14 +23,14 @@ function Contact() {
                   <Form.Label className="mt-3">Email Address</Form.Label>
                   <Form.Control
                     type="email"
-                    className="email"
+                    className="e-mail"
                     placeholder="Enter email"
                   />
                 </FormGroup>
               </Row>
               <Row className="m-1 button">
                 <Button
-                  className="mt-5"
+                  className="mt-5 btn"
                   variant="primary"
                   type="submit"
                   style={{ height: 40, width: 80 }}
@@ -49,6 +49,16 @@ function Contact() {
                 placeholder="Enter Message"
               />
             </Col>
+          </Row>
+          <Row className="m-1 button1">
+            <Button
+              className="mt-5 btn1"
+              variant="primary"
+              type="submit"
+              style={{ height: 40, width: 80 }}
+            >
+              Submit
+            </Button>
           </Row>
         </Form>
       </Container>

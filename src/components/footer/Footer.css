@@ -1,0 +1,171 @@
+.fot-con{
+    padding: 80px;
+    background-image: linear-gradient(#000000 15%,#ea1b1b 90%);
+}
+
+
+.fot{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 50px ;
+    margin-right: 50px;
+}
+
+.fot .fotf{
+    margin: 50px;
+    width:550px;
+}
+.fotf1{
+    margin-left: 80px;
+}
+
+.fotf .fot-txt{
+    padding-right: 80px;
+}
+
+
+.cpy-rt{
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1100px) {
+    .fot-con{
+        padding: 50px;
+    }
+    .fotf .fot-txt{
+        font-size: 15px;
+        padding-right: 50px;
+    }
+    .fotf .fot-img{
+        width: 50%;
+    }
+    
+    .fotf1{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .fot{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .fot .fotf{
+        margin-left: 20px ;
+    }
+
+    .fotf .fot-txt{
+        font-size: 15px;
+        padding-right: 30px;
+    }
+    .fotf .fot-img{
+        width: 50%;
+    }
+    
+    .fotf1{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .fot{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    .fot .fotf{
+        margin-left: 10px ;
+    }
+
+    .fotf .fot-txt{
+        font-size: 13px;
+        padding-right: 30px;
+    }
+    .fotf .fot-img{
+        width: 30%;
+    }
+    
+    .fotf1{
+        margin-left: 15px;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .fot{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    .fot .fotf{
+        margin-left: 10px ;
+    }
+
+    .fotf .fot-txt{
+        font-size: 13px;
+        padding-right: 90px;
+    }
+    .fotf .fot-img{
+        width: 30%;
+    }
+    
+    .fotf1{
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .cpy-rt{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .fot-con{
+        margin-left: 0;
+    }
+    
+    .fot{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    .fot .fotf{
+        margin-left: 10px ;
+    }
+
+    .fotf .fot-txt{
+        font-size: 13px;
+        padding-right: 300px;
+    }
+    .fotf .fot-img{
+        width: 30%;
+    }
+    
+    .fotf1{
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .cpy-rt{
+        font-size: 10px;
+    }
+}
